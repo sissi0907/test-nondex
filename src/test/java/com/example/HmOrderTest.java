@@ -11,4 +11,15 @@ public class HmOrderTest {
         String alphabet = order.getAlphabet();
         assertEquals(alphabet, "abcdefghijklmnopqrstuvwxyz");
     }
+
+    @Test
+    public void testSomething() {
+        assertEquals(3, 1 + 1 + 1);
+    }
+
+    @Test
+    public void testSomethingElse() {
+        assertEquals(4, 2 + 2);
+    }
+
 }
