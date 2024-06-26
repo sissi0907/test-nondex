@@ -16,4 +16,10 @@ public class OtherTest {
     public void anotherTest() {
         assertTrue(!false);
     }
+
+    @Test
+    public void randomlyFail() {
+        // fail 10% of the time
+        assertTrue(Math.random() > 0.1);
+    }
 }
