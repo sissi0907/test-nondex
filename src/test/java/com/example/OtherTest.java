@@ -19,7 +19,7 @@ public class OtherTest {
 
     @Test
     public void randomlyFail() {
-        // fail 10% of the time
-        assertTrue(Math.random() > 0.1);
+        // fail 20% of the time
+        assertTrue(Math.random() > 0.2);
     }
 }
