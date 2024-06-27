@@ -1,2 +1,3 @@
 # test-nondex
-A test repository for a flaky test that NonDex will find.
+
+A test repository for flaky tests that can be detected by NonDex and other flaky test finding tools.
